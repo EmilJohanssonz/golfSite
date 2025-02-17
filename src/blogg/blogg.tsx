@@ -45,7 +45,7 @@ function Blogg() {
         {posts.slice(0, visiblePosts).map((post, index) => (
           <article
             key={index}
-            className="mb-8 bg-white rounded-lg shadow-md p-6  border-b-2"
+            className="mb-8 bg-white rounded-lg shadow-md p-6  border-b-2 border-green-700"
           >
             <h3 className="text-2xl font-bold mb-4 text-emerald-600 underline">
               {post.title}
@@ -61,7 +61,7 @@ function Blogg() {
         <div className="flex justify-center mt-4">
           <button
             onClick={showMorePosts}
-            className="bg-emerald-400 text-white p-2 rounded-lg shadow-md hover:bg-emerald-500 transition-colors"
+            className="bg-green-700 text-white text-md p-2 font-mono rounded-lg shadow-md hover:bg-emerald-500 transition-colors w-40"
           >
             Show More
           </button>

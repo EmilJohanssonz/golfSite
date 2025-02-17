@@ -1,50 +1,9 @@
 import { useState } from "react";
+import allProducts from "./shoplist"
+
+
 
 function Shop() {
-  const allProducts = [
-    {
-      name: "Golf Club Set",
-      category: "Clubs",
-      price: "$499.99",
-      image: "/golf-clubs.jpg",
-    },
-    {
-      name: "Putter",
-      category: "Clubs",
-      price: "$199.99",
-      image: "/golf-putter.jpg",
-    },
-    {
-      name: "Driver",
-      category: "Clubs",
-      price: "$299.99",
-      image: "/golf-driver.jpg",
-    },
-    {
-      name: "Golf Balls",
-      category: "Balls",
-      price: "$19.99",
-      image: "/golf-balls.jpg",
-    },
-    {
-      name: "Practice Balls",
-      category: "Balls",
-      price: "$9.99",
-      image: "/golf-practice-balls.jpg",
-    },
-    {
-      name: "Golf Shoes",
-      category: "Shoes",
-      price: "$89.99",
-      image: "/golf-shoes.jpg",
-    },
-    {
-      name: "Golf Bag",
-      category: "Bags",
-      price: "$129.99",
-      image: "/golf-bag.jpg",
-    },
-  ];
 
   const categories = [...new Set(allProducts.map((p) => p.category))]; // Hämtar unika kategorier
   const categoryImages: Record<string, string> = allProducts.reduce(
@@ -92,7 +51,7 @@ function Shop() {
       {/* Visar produkter inom vald kategori */}
       {selectedCategory && (
         <>
-          <h3 className="text-center font-mono text-xl mt-6">
+          <h3 className="pl-19 text-left font-mono text-xl mt-6 font-bold">
             Showing: {selectedCategory}
           </h3>
 
@@ -108,8 +67,8 @@ function Shop() {
                   className="w-full h-48 object-cover"
                 />
                 <figcaption className="p-4 text-center">
-                  <h4 className="text-lg font-bold">{product.name}</h4>
-                  <p className="text-gray-700">{product.price}</p>
+                  <h4 className="text-lg font-bold text-center">{product.name}</h4>
+                  <p className="text-gray-700 text-center ">{product.price}</p>
                 </figcaption>
               </article>
             ))}
@@ -117,7 +76,7 @@ function Shop() {
 
           <button
             onClick={() => setSelectedCategory(null)}
-            className="block mx-auto mt-6 bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition"
+            className="block mx-auto text-md mt-1 w-40 shadow-md bg-green-700 text-white font-mono p-2  rounded-lg hover:bg-emerald-500 transition-colors"
           >
             Show Categories
           </button>
