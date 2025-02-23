@@ -17,7 +17,7 @@ function Nav() {
           <img src="/ping-removebg-preview.png" alt="Ping" className="h-8" />
           <img src="/cobra-removebg-preview.png" alt="Cobra" className="h-8" />
           <img
-            src="/wilson-removebg-preview.png"
+            src="/wil-removebg-preview.png"
             alt="Wilson"
             className="h-8"
           />
