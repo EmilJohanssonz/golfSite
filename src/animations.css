@@ -1,17 +1,19 @@
 @keyframes moveLeftToRight {
   0% {
-    transform: translateX();
+    transform: translateX(-30%);
   }
 
   50% {
-    transform: translateX(100%);
+    transform: translateX(30%);
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateX(-20%);
   }
 }
 
 .move-left-to-right {
   animation: moveLeftToRight 10s infinite;
+  padding-left: 0px;
+  padding-right: 0px;
 }

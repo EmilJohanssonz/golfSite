@@ -5,7 +5,7 @@ import Footer from './footer/footer';
 import HeadBar from './head/head';
 import HeroImg from './hero/hero';
 import Nav from './nav/nav';
-import Shop from './shop/shop';
+import Shop from './widgets/shop/shop';
 
 
 
