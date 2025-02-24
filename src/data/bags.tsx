@@ -14,9 +14,9 @@ const bags = [
     image: "/golf-bag-taylormade.jpg",
   },
   {
-    name: "Bag Titlist",
+    name: "Bag Titliest",
     category: "Bags",
-    type: "Titlist",
+    type: "Titliest",
     price: "$169.99",
     image: "/golf-bag-titlist.jpg",
   },
@@ -27,6 +27,7 @@ const bags = [
     price: "$165.99",
     image: "/golf-bag-cobra.jpg",
   },
+ 
 ];
 
 export default bags

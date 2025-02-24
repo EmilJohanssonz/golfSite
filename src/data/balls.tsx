@@ -3,14 +3,21 @@ const balls = [
     name: "Mixed C & D",
     category: "Balls",
     type: "Mixed",
-    price: "$15.99",
+    price: "$10.99",
     image: "/golf-balls.jpg",
+  },
+  {
+    name: "Mixed A & B",
+    category: "Balls",
+    type: "Mixed",
+    price: "$25.99",
+    image: "",
   },
   {
     name: "Practice Balls",
     category: "Balls",
     type: "Practice",
-    price: "$5.99",
+    price: "$4.99",
     image: "/golf-practice-balls.jpg",
   },
   {
