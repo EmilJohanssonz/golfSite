@@ -4,28 +4,28 @@ const bags = [
     category: "Bags",
     type: "Standard",
     price: "$129.99",
-    image: "/golf-bag.jpg",
+    image: "/standardBag.png",
   },
   {
     name: "Bag Taylormade",
     category: "Bags",
     type: "Taylormade",
     price: "$159.99",
-    image: "/golf-bag-taylormade.jpg",
+    image: "/tatlormadeBag.png",
   },
   {
     name: "Bag Titliest",
     category: "Bags",
     type: "Titliest",
     price: "$169.99",
-    image: "/golf-bag-titlist.jpg",
+    image: "/titleistBag.png",
   },
   {
     name: "Bag Cobra",
     category: "Bags",
     type: "Cobra",
     price: "$165.99",
-    image: "/golf-bag-cobra.jpg",
+    image: "/cobraBag.png",
   },
  
 ];

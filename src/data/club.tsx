@@ -4,7 +4,7 @@ const clubs = [
     category: "Clubs",
     type: "Set",
     price: "$899.99",
-    image: "/golf-clubs.jpg",
+    image: "/clubsetSpa.png",
   },
   {
     name: "Putter Beginner",
@@ -18,14 +18,14 @@ const clubs = [
     category: "Clubs",
     type: "Driver",
     price: "$299.99",
-    image: "/golf-driver.jpg",
+    image: "/spaDriver.png",
   },
   {
     name: "Woods 3-5 Beginner",
     category: "Clubs",
     type: "Woods",
     price: "$199.99",
-    image: "/golf-woods.jpg",
+    image: "/spaWood.png",
   },
   {
     name: "Hybrids 3-5 Beginner",
