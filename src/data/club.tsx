@@ -11,7 +11,7 @@ const clubs = [
     category: "Clubs",
     type: "Putter",
     price: "$199.99",
-    image: "/golf-putter.jpg",
+    image: "/spaPutter.png",
   },
   {
     name: "Driver Beginner",
@@ -32,28 +32,22 @@ const clubs = [
     category: "Clubs",
     type: "Hybrid",
     price: "$199.99",
-    image: "/golf-hybrids.jpg",
+    image: "/spaHybrid.png",
   },
   {
     name: "Irons 5-Pw Beginner",
     category: "Clubs",
     type: "Irons",
     price: "$399.99",
-    image: "/golf-irons.jpg",
+    image: "/spaIron.png",
   },
-  {
-    name: "Utility 2 & 3 Beginner",
-    category: "Clubs",
-    type: "Utility",
-    price: "$299.99",
-    image: "/golf-utility.jpg",
-  },
+ 
   {
     name: "Wedge 50, 54, 58 Beginner",
     category: "Clubs",
     type: "Wedge",
     price: "$199.99",
-    image: "/golf-wedge.jpg",
+    image: "/SpaldingWedge.png",
   },
   {
     name: "Taylormade Utliity 2-Iron",
