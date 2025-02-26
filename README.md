@@ -1,41 +1,55 @@
-# ⛳ My Golf Website
+# ⛳ My Golf Website  
 
-## 📝 Description
-A modern golf website where users can:
-- Read golf-related **blog articles** 📰  
-- Browse and purchase items in the **webshop** 🛍️
-- More want to come.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:**
-- React
-- TypeScript
-- Tailwind CSS
+## 🏌️ About the Project  
+A modern and dynamic golf website where users can:  
+- 📰 **Read** engaging golf-related blog articles  
+- 🛍️ **Browse & purchase** golf gear in the webshop  
+- 🎯 *More features coming soon!*  
 
 ---
 
-## 📦 Installation
-```
+## 🚀 Features in Progress  
+🔨 **Improving the webshop**  
+- 🏷️ Filter products by brand  
+- 🏌️‍♂️ More golf-related items  
+
+🌍 **Golf Course Finder**  
+- 🔎 Search for golf courses  
+- 📖 Read detailed information about each course  
+- ⭐ Favorite golf courses  
+
+---
+
+## 🛠️ Tech Stack  
+**Frontend:**  
+- ⚛️ React  
+- 🦺 TypeScript  
+- 🎨 Tailwind CSS  
+
+---
+
+## 🚀 Installation & Setup  
+
+```sh
+# Clone the repository
 git clone https://github.com/EmilJohanssonz/golfSite.git
 
-cd golsSite
+# Navigate into the project folder
+cd golfSite
 
-npm i in the terminal
+# Install dependencies
+npm install
 
+# Start the development server
 npm run dev
 
 ```
-
 ---
 
 📜 License
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
-🏌️‍♂️ Created by Emil Håkanzon
-
----
+👨‍💻 Author
+Developed with passion by Emil Håkanzon.
