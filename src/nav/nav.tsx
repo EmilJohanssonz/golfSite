@@ -7,7 +7,7 @@ function Nav() {
           <span className="text-white text-xl font-bold font-mono">
             GolfStar
           </span>
-          <img src="golfstarr.png" alt="GolfStar" className="h-8 -ml-1.5 -mt-1.5 mix-blend-multiply" />
+          <img src="golfstarr.png" alt="GolfStar" className="h-12 -ml-1.5 mix-blend-multiply" />
         </div>
         <figure className="flex gap-1.5 move-left-to-right text-white">
           <img
@@ -43,13 +43,13 @@ function Nav() {
         </figure>
 
         <ul className="text-white flex space-x-6 cursor-pointer">
-          <li className="hover:text-gray-300 transition duration-300 font-mono">
+          <li className="hover:underline hover:text-gray-300 transition duration-300 font-mono">
             Home
           </li>
-          <li className="hover:text-gray-300 transition duration-300 font-mono">
+          <li className="hover:underline hover:text-gray-300 transition duration-300 font-mono">
             About
           </li>
-          <li className="hover:text-gray-300 transition duration-300 font-mono">
+          <li className=" hover:underline hover:text-gray-300 transition duration-300 font-mono">
             Contact
           </li>
         </ul>

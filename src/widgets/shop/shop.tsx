@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import allProducts from "../../data/allproduct";
 import Categories from "./categories";
 import Products from "./products";
@@ -22,6 +22,19 @@ function Shop() {
     { name: string; price: string; priceValue: number; quantity: number }[]
   >([]);
   const [paymentMethod, setPaymentMethod] = useState<string | null>(null);
+
+  // useEffect Hämta varukorgen från localStorage vid första renderingen
+  useEffect(() => {
+    const saveCart = localStorage.getItem("cart");
+    if (saveCart) {
+      setCart(JSON.parse(saveCart));
+    }
+  }, []);
+
+  // spara varakorigen i local när cart har ändras
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
 
   const productTypes = [
     ...new Set(
@@ -80,7 +93,7 @@ function Shop() {
       <h3 className="text-center font-mono font-bold text-2xl mt-4">
         Master-Shop of Golf
       </h3>
- 
+
       {!selectedCategory ? (
         <Categories
           categories={categories}
@@ -99,7 +112,6 @@ function Shop() {
             productTypes={productTypes}
             filteredProducts={filteredProducts}
             addToCart={addToCart}
-            
           />
           {cart.length > 0 && (
             <Cart
@@ -115,7 +127,6 @@ function Shop() {
           />
         </>
       )}
-  
     </>
   );
 }

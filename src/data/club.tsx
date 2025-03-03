@@ -1,49 +1,49 @@
 const clubs = [
   {
-    name: "Golf Club Set Beginner",
+    name: "Spadling Club Set",
     category: "Clubs",
     type: "Set",
     price: "$899.99",
     image: "/clubsetSpa.png",
   },
   {
-    name: "Putter Beginner",
+    name: "Putter Spadling",
     category: "Clubs",
     type: "Putter",
     price: "$199.99",
     image: "/spaPutter.png",
   },
   {
-    name: "Driver Beginner",
+    name: "Driver Spadling",
     category: "Clubs",
     type: "Driver",
     price: "$299.99",
     image: "/spaDriver.png",
   },
   {
-    name: "Woods 3-5 Beginner",
+    name: "Woods 3-5 Spadling",
     category: "Clubs",
     type: "Woods",
     price: "$199.99",
     image: "/spaWood.png",
   },
   {
-    name: "Hybrids 3-5 Beginner",
+    name: "Hybrids 3-5 Spadling",
     category: "Clubs",
     type: "Hybrid",
     price: "$199.99",
     image: "/spaHybrid.png",
   },
   {
-    name: "Irons 5-Pw Beginner",
+    name: "Irons 5-Pw Spadling",
     category: "Clubs",
     type: "Irons",
     price: "$399.99",
     image: "/spaIron.png",
   },
- 
+
   {
-    name: "Wedge 50, 54, 58 Beginner",
+    name: "Wedge 50, 54, 58 Spadling",
     category: "Clubs",
     type: "Wedge",
     price: "$199.99",
@@ -145,14 +145,14 @@ const clubs = [
     category: "Clubs",
     type: "Driver",
     price: "$699.99",
-    image: ""
+    image: "",
   },
   {
     name: "Titliest Gt-3 Wood",
     category: "Clubs",
     type: "Woods",
     price: "$499.99",
-    image: ""
+    image: "",
   },
   {
     name: "Titliest Gt-3 Hybrid",
@@ -161,6 +161,20 @@ const clubs = [
     price: "$399.99",
     image: "",
   },
+  {
+    name: "Titliest Club Set",
+    category: "Clubs",
+    type: "Set",
+    price: "$20000",
+    image: "titleistSet.png",
+  },
+  {
+    name: "Taylormade Club Set",
+    category: "Clubs",
+    type: "Set",
+    price: "$20000",
+    image: "/taylorSet.png",
+  }
 ];
 
 // TODO: Kunna filtera märken av vald type
